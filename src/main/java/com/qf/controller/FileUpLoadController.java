@@ -136,7 +136,7 @@ public class FileUpLoadController {
         result.put("filePath","http://localhost:8080/static/upload/"+destFileName);
         return result;
     }
-
+//aaa
     static String UPLOAD_PATH = "/static/upload/";
     @ResponseBody
     @RequestMapping(value = "upload1", method = RequestMethod.POST)
@@ -183,5 +183,5 @@ public class FileUpLoadController {
         return result;
     }
 
-
+//这是
 }
